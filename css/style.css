@@ -82,3 +82,35 @@ h6 {
    font-weight: 400;
 }
 
+body {
+   background-color: #e8e8e8;
+   width: 1440px;
+   height: 1700px;
+}
+p.head {
+   font-family: "Arial MT";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 40px;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   opacity: 0.6;
+   color: #273d46;
+   text-align: center;
+   margin-top: 168px;
+}
+.text1 {
+   font-family: "Times New Roman PSMT";
+   color: #273d46;
+   font-size: 36px;
+   line-height: 50px;
+   font-weight: 400;
+   width: 721px;
+   height: 75px;
+   text-align: center;
+   margin:206px 372px 1419px 347px;
+}
+.img1 {
+   background: url('../img/light-man_copy.png') 289px 310px no-repeat;
+   
+}
