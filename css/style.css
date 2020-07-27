@@ -83,11 +83,13 @@ h6 {
 }
 
 body {
+   background: url('../img/Ellipse_1_copy.png') no-repeat;
+   background-position-x: 122px;
+   background-position-y: 144px;
    background-color: #e8e8e8;
-   width: 1440px;
-   height: 1700px;
 }
-p.head {
+.head {
+   display: inline-block;
    font-family: "Arial MT";
    font-size: 14px;
    font-weight: 400;
@@ -96,21 +98,102 @@ p.head {
    letter-spacing: 2.8px;
    opacity: 0.6;
    color: #273d46;
-   text-align: center;
-   margin-top: 168px;
+   margin: 168px 0 0 675px;
 }
+.wrapper {
+   width: 1440px;
+   height: 1700px;
+}
+
 .text1 {
-   font-family: "Times New Roman PSMT";
+   display: inline-block;
    color: #273d46;
+   font-family: "Times New Roman PSMT";
    font-size: 36px;
-   line-height: 50px;
    font-weight: 400;
-   width: 721px;
-   height: 75px;
+   line-height: 50px;
    text-align: center;
-   margin:206px 372px 1419px 347px;
+   margin-left: 350px;
 }
-.img1 {
-   background: url('../img/light-man_copy.png') 289px 310px no-repeat;
-   
+
+.img {
+   background-image:  url('../img/light-man_copy.png');
+}
+.img {
+   display: inline-block;
+   width: 821px;
+   height: 541px;
+   box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+   margin: 87px 0 0 299px;
+}
+.ellipse {
+   display: inline-block;
+   width: 1190px;
+   height: 1064px;
+}
+.underline {
+   width: 736px;
+   height: 257px;
+   color: #273d46;
+   font-family: "Times New Roman PSMT";
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 40px;
+   text-align: left;
+   margin-left: 334px;
+   margin-bottom: 64px;
+}
+.list {
+   margin-left:338px;
+   margin-bottom: 50px;
+}
+.list li {
+   margin: 0 0 13px;
+   background: url('../img/check_icon.png') left no-repeat;
+   padding: 0 0 0 30px;
+}
+
+.li1 {
+   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+   color: #273d46;
+   font-family: "Arial MT";
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 36px;
+}
+
+.li2 {
+   color: #80b7b3;
+   font-family: "Arial MT";
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 36px;
+}
+
+.li3 {
+   color: #273d46;
+   font-family: "Arial MT";
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 36px;
+}
+
+.li4 {
+   opacity: 0.3;
+   color: #273d46;
+   font-family: "Arial MT";
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 36px;
+   text-decoration: line-through;
+}
+
+.button-contanier {
+   width: 233px;
+   height: 94px;
+   display: inline-block;
+   background-image: url('../img/4-layers.png');
+   box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+   margin-top: 59px;
+   background-color: #e8e8e8;
 }
